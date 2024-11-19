@@ -10,7 +10,7 @@ public class IndexService {
 
     public IndexService(MeterRegistry meterRegistry) {
 //        this.counter = meterRegistry.counter("call.count");
-        counter = meterRegistry.counter("IndexService.call.count");
+        counter = meterRegistry.counter("index.call.count");
 
     }
 
